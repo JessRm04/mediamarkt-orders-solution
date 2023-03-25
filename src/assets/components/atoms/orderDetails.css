@@ -1,0 +1,11 @@
+.oderDetailsContainer{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+}
+
+.deliveryDate{
+margin-top: 98%;
+margin-left: 90%;
+color: red;
+}
