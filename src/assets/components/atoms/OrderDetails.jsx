@@ -1,10 +1,12 @@
 import React from 'react'
 import './orderDetails.css'
+import Divider from '@mui/material/Divider'
 
 function OrderDetails(props) {
     const { deliveryDate, pickupDate } = props;
     
   return (
+    <>
     <div className="oderDetailsContainer">
         <div>
             <h2>Parcel List {deliveryDate}</h2>
@@ -15,6 +17,8 @@ function OrderDetails(props) {
             <p className="deliveryDate">{deliveryDate}</p>
         </div>
     </div>
+    <Divider/>
+    </>
   );
 }
 

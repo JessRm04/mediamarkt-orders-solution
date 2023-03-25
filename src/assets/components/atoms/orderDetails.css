@@ -1,7 +1,9 @@
 .oderDetailsContainer{
     display: flex;
     flex-direction: row;
-    font-size: small;
+    font-size: x-small;
+    color:#3A3541 87%;
+    margin-left: 4%;
 }
 
 .deliveryDate{

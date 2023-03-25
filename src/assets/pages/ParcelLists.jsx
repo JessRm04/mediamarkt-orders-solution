@@ -1,10 +1,13 @@
 import React from 'react';
 import OrderDetails from '../components/atoms/OrderDetails';
 import data from './data.json';
+import Fab from '@mui/material/Fab';
+import AddIcon from '@mui/icons-material/Add';
+
 
 function ParcelLists() {
 
-  const returnData = data.slice(0, 15);
+  const returnData = data.slice(0, 8);
 
   return (
     <>
@@ -17,6 +20,9 @@ function ParcelLists() {
           pickupDate={parcel.pickupDate}
         />
       ))}
+      <Fab color="secondary" aria-label="add">
+        <AddIcon />
+      </Fab>
     </div>
     </>
   );
