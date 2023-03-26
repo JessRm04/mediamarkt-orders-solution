@@ -21,7 +21,7 @@ function ParcelInformationModal({ onClose, onSubmit }) {
   }, [onClose]);
 
   const handleSubmit = () => {
-    // Obtiene los valores de los campos de texto
+
     const id = idRef.current.value;
     const carrierId = carrierIdRef.current.value;
 

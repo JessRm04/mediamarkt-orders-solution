@@ -19,14 +19,14 @@ function ParcelLists() {
   };
 
   const handleModalSubmit = (id, carrierId) => {
-    // Busca los datos correspondientes en data.json y transportist.json
+
     const data = dataJson.find((item) => item.id.$oid === id);
     const carrierData = transportistJson.find((item) => item.id.$oid === carrierId);
 
-    // Actualiza el estado modalData
+
     setModalData({ data, carrierData });
 
-    // Cierra el modal
+
     setIsModalOpen(false);
   };
 

@@ -23,3 +23,7 @@ function OrderDetails(props) {
 }
 
 export default OrderDetails;
+
+{/* <Link to={`/parcelist/${deliveryDate}`}>
+Parcel List {deliveryDate}
+</Link> */}
