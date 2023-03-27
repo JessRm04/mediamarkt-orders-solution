@@ -19,15 +19,18 @@ function ParcelLists() {
   };
 
   const handleModalSubmit = (id, carrierId) => {
-
     const data = dataJson.find((item) => item.id.$oid === id);
     const carrierData = transportistJson.find((item) => item.id.$oid === carrierId);
 
-
     setModalData({ data, carrierData });
 
-
     setIsModalOpen(false);
+  };
+
+  const [selectedParcelId, setSelectedParcelId] = useState(null);
+
+  const handleTitleClick = (id) => {
+    setSelectedParcelId(id);
   };
 
   return (
@@ -35,14 +38,18 @@ function ParcelLists() {
       <h1>Parcel Lists</h1>
       <div>
         {dataJson.slice(0, 8).map((parcel) => (
-          <OrderDetails key={parcel.id} deliveryDate={parcel.deliveryDate} pickupDate={parcel.pickupDate} />
+          <OrderDetails
+            key={parcel.id}
+            deliveryDate={parcel.deliveryDate}
+            pickupDate={parcel.pickupDate}
+            onTitleClick={() => handleTitleClick(parcel.id)}
+          />
         ))}
         {modalData && (
           <OrderDetails
             deliveryDate={modalData.data.deliveryDate}
             pickupDate={modalData.data.pickupDate}
             carrierCompanyName={modalData.carrierData.companyName}
-            // ...
           />
         )}
         <Fab color="secondary" aria-label="add" onClick={handleOpenModal}>

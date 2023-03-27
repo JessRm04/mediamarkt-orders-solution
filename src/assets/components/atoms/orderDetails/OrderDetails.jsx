@@ -9,7 +9,7 @@ function OrderDetails(props) {
     <>
     <div className="oderDetailsContainer">
         <div>
-            <h2>Parcel List {deliveryDate}</h2>
+        <h2 onClick={props.onTitleClick}>Parcel List {deliveryDate}</h2>
             <p>5 carriers picked up the parcel on {pickupDate}</p>
             <p>14 items</p>
         </div>
