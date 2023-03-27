@@ -5,11 +5,11 @@ This project was created to help MediaMarkt to deliver its products from the sto
 
 
 ## Screenshots :desktop_computer:
-![This is an image](./src/assets/img/mobile(1).png)
+![This is an image](./src/assets/img/mobile1.png)
 
-![This is an image](./src/assets/img/mobile(2).png)
+![This is an image](./src/assets/img/mobile2.png)
 
-![This is an image](./src/assets/img/mmobile(3).png)
+![This is an image](./src/assets/img/mmobile3.png)
 
 
 ## Tech/framework stack :electric_plug:
