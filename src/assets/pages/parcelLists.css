@@ -1,0 +1,20 @@
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.pageTitle{
+    margin-left: 4%;
+    color: #3A3541DE;
+}
+
+a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 19px;
+    text-decoration: none;
+}

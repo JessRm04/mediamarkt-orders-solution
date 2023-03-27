@@ -1,0 +1,41 @@
+.card{
+    display: flex;
+}
+
+
+.localShippingSharpIcon{
+    width: 4em;
+    height: 4em;
+    color: red;
+    font-size: 6em;
+
+}
+
+.iconContainer{
+    background-color: rgba(223, 0, 0, 0.104);
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 3%
+}
+
+.textContainer{
+    line-height: 1em;
+    font-size: 0.8em;
+    color:  #3A3541DE;
+  }
+
+  .deliveryContainer{
+    display: flex;
+    align-items: center;
+
+  }
+
+  .deliveryText{
+    color:red;
+    font-size: 0.65em;
+    margin-left: 10%;
+  }

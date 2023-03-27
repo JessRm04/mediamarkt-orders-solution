@@ -5,6 +5,7 @@ import dataJson from './data.json';
 import transportistJson from './transportist.json';
 import Fab from '@mui/material/Fab';
 import AddIcon from '@mui/icons-material/Add';
+import './parcelLists.css'
 
 function ParcelLists() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -27,15 +28,16 @@ function ParcelLists() {
     setIsModalOpen(false);
   };
 
-  const [selectedParcelId, setSelectedParcelId] = useState(null);
+  const [showButton, setShowButton] = useState(true);
 
-  const handleTitleClick = (id) => {
-    setSelectedParcelId(id);
+  const handleClick = () => {
+    setShowButton(false);
+    handleOpenModal();
   };
 
   return (
     <>
-      <h1>Parcel Lists</h1>
+      <h1 className="pageTitle">Parcel Lists</h1>
       <div>
         {dataJson.slice(0, 8).map((parcel) => (
           <OrderDetails
@@ -52,9 +54,15 @@ function ParcelLists() {
             carrierCompanyName={modalData.carrierData.companyName}
           />
         )}
-        <Fab color="secondary" aria-label="add" onClick={handleOpenModal}>
-          <AddIcon />
-        </Fab>
+
+        {showButton && (
+          <div className="buttonContainer">
+            <Fab color="error" aria-label="add" onClick={handleClick} className="addButton">
+              <AddIcon />
+            </Fab>
+          </div>
+        )}
+
         {isModalOpen && (
           <ParcelInformationModal onClose={handleCloseModal} onSubmit={handleModalSubmit} />
         )}
