@@ -3,7 +3,6 @@
 }
 
 .modalContainer{
-    height: 900px;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -13,7 +12,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 200px;
+    height: 250px;
     background-color: white;
 }
 

@@ -42,7 +42,7 @@ function ParcelLists() {
     <>
       <h1>Parcel Lists</h1>
       <div>
-        {dataJson.slice(0, 8).map((parcel) => (
+        {dataJson.slice(0, 6).map((parcel) => (
           <OrderDetails key={parcel.id} deliveryDate={parcel.deliveryDate} pickupDate={parcel.pickupDate} />
         ))}
         {modalData && (
@@ -55,7 +55,7 @@ function ParcelLists() {
 
         {showButton && (
           <div className="buttonContainer">
-            <Fab color="secondary" aria-label="add" onClick={handleClick} className="addButton">
+            <Fab color="error" aria-label="add" onClick={handleClick} className="addButton">
               <AddIcon />
             </Fab>
           </div>

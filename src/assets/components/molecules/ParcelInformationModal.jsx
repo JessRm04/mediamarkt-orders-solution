@@ -44,6 +44,7 @@ function ParcelInformationModal({ onClose, onSubmit }) {
                 variant="filled"
                 inputRef={idRef}
               />
+              <br/>
               <TextField
                 required
                 id="filled-required"
@@ -54,7 +55,7 @@ function ParcelInformationModal({ onClose, onSubmit }) {
             </div>
           </form>
           <br></br>
-          <Button className="button" variant="contained" color="secondary" onClick={handleSubmit}>
+          <Button className="button" variant="contained" color="error" onClick={handleSubmit}>
             ADD
           </Button>
           <br></br>
