@@ -5,9 +5,11 @@ This project was created to help MediaMarkt to deliver its products from the sto
 
 
 ## Screenshots :desktop_computer:
-![This is an image](./src/assets/img/mobile(1).png)
-![This is an image](./src/assets/img/mobile(2).png)
-![This is an image](./src/assets/img/mobile(3).png)
+![This is an image](src\assets\img\mobile(1).png)
+
+![This is an image](src\assets\img\mobile(2).png)
+
+![This is an image](src\assets\img\mobile(3).png)
 
 
 ## Tech/framework stack :electric_plug:
@@ -28,7 +30,9 @@ This project was created to help MediaMarkt to deliver its products from the sto
 
 ## JSON References 👩‍💻
 Parcel information [here](https://challenges-asset-files.s3.us-east-2.amazonaws.com/Events/Media+Markt/Challenges/parcels_mm.json) 
+
 Transportist [here](https://challenges-asset-files.s3.us-east-2.amazonaws.com/Events/Media+Markt/Challenges/carriers_mm.json) 
+
 Product [here](https://challenges-asset-files.s3.us-east-2.amazonaws.com/Events/Media+Markt/Challenges/items_mm.json) 
 
 
