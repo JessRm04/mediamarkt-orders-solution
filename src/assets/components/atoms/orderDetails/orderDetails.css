@@ -7,7 +7,12 @@
 }
 
 .deliveryDate{
-margin-top: 98%;
-margin-left: 90%;
-color: red;
+    margin-top: 98%;
+    margin-left: 90%;
+    color: red;
+}
+
+.parcelList{
+    color: #3A3541DE;
+    text-decoration: none;
 }
