@@ -1,4 +1,4 @@
-# Mediamarkt Solution :boom:
+# Mediamarkt & Nuwe Hackathon Solution :boom:
 ***
 ## Motivation :brain:
 This project was created to help MediaMarkt to deliver its products from the store to the customer better and faster. This is an application for the Store Staff so they can choose the right carrier to deliver the goods at customers home.
