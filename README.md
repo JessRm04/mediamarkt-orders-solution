@@ -5,11 +5,11 @@ This project was created to help MediaMarkt to deliver its products from the sto
 
 
 ## Screenshots :desktop_computer:
-![This is an image](./src/assets/img/mobile1.png)
+![This is an image](https://github.com/JessRm04/mediamarkt-orders-solution/blob/e866a2be5e0c41beb74ed07d7d000d3fc8ff128f/src/assets/img/mobile1.png)
 
-![This is an image](./src/assets/img/mobile2.png)
+![This is an image](https://github.com/JessRm04/mediamarkt-orders-solution/blob/e866a2be5e0c41beb74ed07d7d000d3fc8ff128f/src/assets/img/mobile2.png)
 
-![This is an image](./src/assets/img/mmobile3.png)
+![This is an image](https://github.com/JessRm04/mediamarkt-orders-solution/blob/e866a2be5e0c41beb74ed07d7d000d3fc8ff128f/src/assets/img/mobile3.png)
 
 
 ## Tech/framework stack :electric_plug:
