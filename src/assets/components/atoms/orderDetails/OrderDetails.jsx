@@ -11,13 +11,9 @@ function OrderDetails(props) {
     <>
     <div className="oderDetailsContainer">
         <div>
-<<<<<<< HEAD
-        <h2 onClick={props.onTitleClick}>Parcel List {deliveryDate}</h2>
-=======
         <Link to="/transportistList">
             <h2 className="parcelList">Parcel List {deliveryDate}</h2>
           </Link>
->>>>>>> 15a81695205850351c0882f6740a455eb2289929
             <p>5 carriers picked up the parcel on {pickupDate}</p>
             <p>14 items</p>
         </div>
